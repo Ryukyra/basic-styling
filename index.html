@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Basic Styling: My second project</title>
+    <meta name="author" content="Arrigo Lupori">
+    <link href='css/normalize.css' rel='stylesheet'>
+    <link href='css/style.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700" rel="stylesheet">
+  </head>
+
+  <!-- HEADER -->
+
+  <body>
+    <div id="header">
+      <h1>Paris</h1>
+      <h2>Bonjour!</h2>
+    </div>
+
+    <h1>Three things need to be said about Paris:</h1>
+
+    <ol>
+      <li><a href="https://en.wikipedia.org/wiki/Eiffel_Tower" target="_blank">Eiffel Tower</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Baguette" target="_blank">Baguettes</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Love" target="_blank">Love</a></li>
+    </ol>
+
+    <!-- TEXT FLOAT LEFT -->
+
+    <div id='float'>
+      <p>Stereotypes aren't really my thing, nor is humour,<br> I just needed a list.</p>
+
+      <p>So, have you ever been to this amazing city?<br>
+        They say it is the city of love, the fashion capital, a booming metropolis
+        a great great city with lots of history and culture.
+        <span>You won't get bored here.</span>
+      </p>
+
+      <p>If you'd like to take a chance and win a ticket to this unbelievable city,
+        fill the form on the right and tell us who you are, we'll be very happy to take
+        your info to do evil things and track you down.
+      </p>
+
+      <img src="img/thumbs-up.png" alt="Thumbs Up">
+
+      <p><acronym title="Post Scriptum">Ps</acronym>: the form may never work because it is not designed to, peace.</p>
+    </div>
+
+    <!-- FORM FLOAT RIGHT -->
+
+    <div class="form-style">
+      <h1>Sign Up Now!<span>Sign up and tell us about your passions!</span></h1>
+      <form>
+        <div class="section"><span>1</span>First Name &amp; Address</div>
+        <div class="inner-wrap">
+          <label>Your Full Name <input type="text" name="field1" /></label>
+          <label>Address <textarea name="field2"></textarea></label>
+        </div>
+
+        <div class="section"><span>2</span>Email &amp; Phone</div>
+        <div class="inner-wrap">
+          <label>Email Address <input type="email" name="field3" /></label>
+          <label>Phone Number <input type="text" name="field4" /></label>
+        </div>
+
+        <div class="section"><span>3</span>Passwords</div>
+          <div class="inner-wrap">
+          <label>Password <input type="password" name="field5" /></label>
+          <label>Confirm Password <input type="password" name="field6" /></label>
+        </div>
+        <div class="button-section">
+          <input type="submit" id="sign-up" name="Sign Up" />
+          <span class="privacy-policy">
+            <input type="checkbox" name="field7">You agree to our Terms and Policy.
+         </span>
+        </div>
+      </form>
+    </div>
+    <h1 id='stamp'>Sent!<h1>
+    <script src="js/app.js"></script>
+  </body>
+</html>
